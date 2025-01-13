@@ -45,5 +45,21 @@
     flex-direction: column;
   }
 }
+.button {
+  display: flex;
+  border: 1.5px solid black;
+  align-items: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  width: fit-content;
+  padding: 5px;
+  text-decoration: none;
+  margin-bottom: 55px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=project.css.map */
