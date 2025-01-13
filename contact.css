@@ -1,0 +1,27 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_main{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: bisque;
+    padding: 40px;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.contact_main, input{
+    border: none;
+    border-radius: 5px;
+}
+
+input{
+    display: flex;
+    width: 450px;
+}
+
+#msg{
+    height: 60px;
+}
