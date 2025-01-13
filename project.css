@@ -1,0 +1,49 @@
+* {
+  background-color: red;
+  margin: 0;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.photo_img {
+  display: flex;
+  padding: 10px;
+}
+
+.conteneur {
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.conteneur_raw {
+  justify-content: center;
+  padding: 15px;
+}
+
+@media screen and (max-width: 300px) {
+  .photo {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=project.css.map */
