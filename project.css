@@ -1,0 +1,29 @@
+* {
+  background-color: red;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo_img {
+  display: flex;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=project.css.map */
