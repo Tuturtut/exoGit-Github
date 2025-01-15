@@ -1,16 +1,18 @@
-* {
-  background-color: red;
-  margin: 0;
-}
-
 .head {
   display: flex;
+  position: fixed;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 10px;
   align-items: center;
   justify-content: center;
   height: 100px;
+  width: 50%;
+  z-index: 10;
+  background-color: red;
+  left: 0; // positionne le bord gauche de l'element parent a 0 sur lui meme
+  right: 0;
+  margin: 0 auto; // marge supe et inf de zero et il ce centre par rapport a son parent
 }
 
 .photo {
@@ -20,6 +22,7 @@
   align-items: center;
   justify-content: space-around;
   justify-items: center;
+  margin-top: 200px;
 }
 
 .photo_img {
@@ -43,4 +46,29 @@
   .photo {
     flex-direction: column;
   }
+}
+
+.button {
+  display: flex;
+  border: 1.5px solid black;
+  align-items: center;
+  font-size: 30px;
+  text-transform: capitalize;
+  width: fit-content;
+  padding: 5px;
+  text-decoration: none;
+  margin-bottom: 55px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-image: url("fond_ecran.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
 }
